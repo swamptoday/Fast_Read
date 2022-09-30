@@ -1,6 +1,7 @@
 .main {
+margin-top: 425px;
 text-align: center;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 .words {
@@ -13,5 +14,5 @@ font-family: 'Open Sans', sans-serif;
 
 .changeButton {
     font-size: 16px;
-    margin-top: 25px;
+    margin-top: 125px;
 }

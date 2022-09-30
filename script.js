@@ -62,4 +62,11 @@ function sleep(ms)
 {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
-  
+
+document.onkeyup = function () {
+    var e = e || window.event; // for IE to cover IEs window event-object
+    if(e.which == 65) {
+        changeText();
+      return false;
+    }
+  }
