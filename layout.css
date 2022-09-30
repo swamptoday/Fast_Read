@@ -2,17 +2,22 @@
 margin-top: 425px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
+color:#CACFD4;
+background-color:#232B3A;
 }
 
 .words {
     font-size: 25px;
+background-color:#232B3A;
 }
 
 .title {
     margin-bottom: 75px;
+background-color:#232B3A;
 }
 
-.changeButton {
-    font-size: 16px;
-    margin-top: 125px;
+body{
+
+background-color:#232B3A;
+
 }
