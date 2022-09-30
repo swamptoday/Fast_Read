@@ -1,0 +1,17 @@
+.main {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+.words {
+    font-size: 25px;
+}
+
+.title {
+    margin-bottom: 75px;
+}
+
+.changeButton {
+    font-size: 16px;
+    margin-top: 25px;
+}

@@ -1,12 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
 <meta charset="utf-8">
+
+<!--styles and fonts-->
+<link rel="stylesheet" href="layout.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+<!--styles and fonts end-->
+
 </head> 
+
 <body>
-    <h2>Change text in Paragraph using JavaScript</h2>
-    <p id="myPara">To start a program click "Click me"</p>
-    <button type="button" onclick="changeText()">Click Me</button>
+    <div class="main">
+
+        <div class="title">
+            <h2>Change text in Paragraph using JavaScript</h2>
+        </div>
+
+        <div class="words">
+            <p id="myPara">To start a program click "Click me"</p>
+        </div>
+
+        <button type="button" class="changeButton" onclick="changeText()">Click Me</button>
+    </div>
+
+    <!--scripts-->
     <script src="script.js"></script>
+    <!--scripts end-->
 </body>
 </html>
